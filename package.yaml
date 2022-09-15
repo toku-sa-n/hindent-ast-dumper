@@ -1,0 +1,14 @@
+name: hindent-ast-dumper
+
+dependencies:
+- base
+- bytestring
+- either
+- hindent
+- pretty-simple
+
+license: WTFPL
+
+executable:
+  main: Main.hs
+  source-dirs: app
